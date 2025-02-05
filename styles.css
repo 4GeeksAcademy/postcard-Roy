@@ -11,7 +11,8 @@ body {
 	background-image: url(https://static.vecteezy.com/system/resources/previews/002/182/163/original/blue-sky-and-beautiful-clouds-free-photo.jpg);
 	background-position-y: center;
 	width: 500px;
-	height: 400px;
+	height: 350px;
+	padding: 10px;
 	margin: auto;
 }
 .postcard-header {
@@ -34,7 +35,8 @@ body-right {
 }
 input {
 	border: none;
-	border-bottom: grey;
+	margin-bottom: 5px;
+	border-bottom: grey 1px solid;
 	text-decoration: underline;
 	color: rgb(191, 200, 207);
 }
@@ -61,7 +63,7 @@ input {
 }
 button {
 	background-color: rgb(177, 174, 174);
-	padding: 5%;
+	padding: 5px;
 	width: 165px;
 	height: 50px;
 }
