@@ -1,0 +1,70 @@
+body {
+	background: black;
+	padding: 5%;
+}
+.back {
+	padding: 15%;
+	background: rgb(7, 7, 7);
+}
+
+.postcard {
+	background-image: url(https://static.vecteezy.com/system/resources/previews/002/182/163/original/blue-sky-and-beautiful-clouds-free-photo.jpg);
+	background-position-y: center;
+	width: 500px;
+	height: 400px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0%;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left,
+body-right {
+	padding: 2%;
+}
+input {
+	border: none;
+	border-bottom: grey;
+	text-decoration: underline;
+	color: rgb(191, 200, 207);
+}
+.body-left p:first-child {
+	margin-top: auto;
+}
+.body-left {
+	text-align: left;
+}
+.body-left {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+.body-right {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+.postcard-footer {
+	text-align: center;
+	margin: auto;
+	border-color: none;
+}
+button {
+	background-color: rgb(177, 174, 174);
+	padding: 5%;
+	width: 165px;
+	height: 50px;
+}
+h1 {
+	font-family: Caveat;
+}
